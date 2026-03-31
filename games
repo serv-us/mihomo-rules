@@ -1,564 +1,565 @@
-# PC Games Process List for Mihomo
-# All popular game launchers and online games → DIRECT
-# Updated: 2026-03-31
+payload:
+  # PC Games Process List for Mihomo
+  # All popular game launchers and online games → DIRECT
+  # Updated: 2026-03-31
 
-# ═══════════════════════════════════════════════════════════════════════════
-# GAME LAUNCHERS & PLATFORMS
-# ═══════════════════════════════════════════════════════════════════════════
+  # ═══════════════════════════════════════════════════════════════════════════
+  # GAME LAUNCHERS & PLATFORMS
+  # ═══════════════════════════════════════════════════════════════════════════
 
-# Steam
-PROCESS-NAME,steam.exe
-PROCESS-NAME,steamwebhelper.exe
-PROCESS-NAME,steamservice.exe
-PROCESS-NAME,steamerrorreporter.exe
+  # Steam
+  - PROCESS-NAME,steam.exe
+  - PROCESS-NAME,steamwebhelper.exe
+  - PROCESS-NAME,steamservice.exe
+  - PROCESS-NAME,steamerrorreporter.exe
 
-# Epic Games
-PROCESS-NAME,EpicGamesLauncher.exe
-PROCESS-NAME,EpicWebHelper.exe
-PROCESS-NAME,EasyAntiCheat.exe
+  # Epic Games
+  - PROCESS-NAME,EpicGamesLauncher.exe
+  - PROCESS-NAME,EpicWebHelper.exe
+  - PROCESS-NAME,EasyAntiCheat.exe
 
-# Wargaming Game Center
-PROCESS-NAME,wgc.exe
-PROCESS-NAME,WargamingGameUpdater.exe
+  # Wargaming Game Center
+  - PROCESS-NAME,wgc.exe
+  - PROCESS-NAME,WargamingGameUpdater.exe
 
-# Lesta Game Center
-PROCESS-NAME,lgc.exe
-PROCESS-NAME,LestaErrorMonitor.exe
-PROCESS-NAME,lgc_renderer_host.exe
-PROCESS-NAME,pluginhost.exe
-PROCESS-NAME,helper_process.exe
-PROCESS-NAME,WoWSLauncher.exe
-PROCESS-NAME,LestaGameUpdater.exe
-PROCESS-NAME,Tanki.exe
+  # Lesta Game Center
+  - PROCESS-NAME,lgc.exe
+  - PROCESS-NAME,LestaErrorMonitor.exe
+  - PROCESS-NAME,lgc_renderer_host.exe
+  - PROCESS-NAME,pluginhost.exe
+  - PROCESS-NAME,helper_process.exe
+  - PROCESS-NAME,WoWSLauncher.exe
+  - PROCESS-NAME,LestaGameUpdater.exe
+  - PROCESS-NAME,Tanki.exe
 
 # VK Play (ex Mail.ru Game Center)
-PROCESS-NAME,vkplay.exe
-PROCESS-NAME,GameCenter.exe
+  - PROCESS-NAME,vkplay.exe
+  - PROCESS-NAME,GameCenter.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # RIOT GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # League of Legends
-PROCESS-NAME,LeagueClient.exe
-PROCESS-NAME,LeagueClientUx.exe
-PROCESS-NAME,League of Legends.exe
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,LeagueClientUx.exe
+  - PROCESS-NAME,League of Legends.exe
 
 # VALORANT
-PROCESS-NAME,VALORANT.exe
-PROCESS-NAME,VALORANT-Win64-Shipping.exe
-PROCESS-NAME,Vanguard.exe
+  - PROCESS-NAME,VALORANT.exe
+  - PROCESS-NAME,VALORANT-Win64-Shipping.exe
+  - PROCESS-NAME,Vanguard.exe
 
 # Teamfight Tactics
-PROCESS-NAME,TeamfightTactics.exe
+  - PROCESS-NAME,TeamfightTactics.exe
 
 # Legends of Runeterra
-PROCESS-NAME,LoR.exe
+  - PROCESS-NAME,LoR.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # BLIZZARD GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # World of Warcraft
-PROCESS-NAME,Wow.exe
-PROCESS-NAME,WowClassic.exe
-PROCESS-NAME,Wow-64.exe
+  - PROCESS-NAME,Wow.exe
+  - PROCESS-NAME,WowClassic.exe
+  - PROCESS-NAME,Wow-64.exe
 
 # Overwatch
-PROCESS-NAME,Overwatch.exe
-PROCESS-NAME,Overwatch2.exe
+  - PROCESS-NAME,Overwatch.exe
+  - PROCESS-NAME,Overwatch2.exe
 
 # Diablo
-PROCESS-NAME,Diablo III.exe
-PROCESS-NAME,Diablo III64.exe
-PROCESS-NAME,Diablo IV.exe
+  - PROCESS-NAME,Diablo III.exe
+  - PROCESS-NAME,Diablo III64.exe
+  - PROCESS-NAME,Diablo IV.exe
 
 # Hearthstone
-PROCESS-NAME,Hearthstone.exe
+  - PROCESS-NAME,Hearthstone.exe
 
 # Heroes of the Storm
-PROCESS-NAME,HeroesOfTheStorm.exe
-PROCESS-NAME,HeroesOfTheStorm_x64.exe
+  - PROCESS-NAME,HeroesOfTheStorm.exe
+  - PROCESS-NAME,HeroesOfTheStorm_x64.exe
 
 # StarCraft
-PROCESS-NAME,StarCraft.exe
-PROCESS-NAME,StarCraft II.exe
-PROCESS-NAME,SC2.exe
-PROCESS-NAME,SC2_x64.exe
+  - PROCESS-NAME,StarCraft.exe
+  - PROCESS-NAME,StarCraft II.exe
+  - PROCESS-NAME,SC2.exe
+  - PROCESS-NAME,SC2_x64.exe
 
 # Warcraft III
-PROCESS-NAME,Warcraft III.exe
-PROCESS-NAME,Warcraft III Reforged.exe
+  - PROCESS-NAME,Warcraft III.exe
+  - PROCESS-NAME,Warcraft III Reforged.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # VALVE GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Counter-Strike
-PROCESS-NAME,csgo.exe
-PROCESS-NAME,cs2.exe
+  - PROCESS-NAME,csgo.exe
+  - PROCESS-NAME,cs2.exe
 
 # Dota 2
-PROCESS-NAME,dota2.exe
+  - PROCESS-NAME,dota2.exe
 
 # Team Fortress 2
-PROCESS-NAME,tf2.exe
-PROCESS-NAME,hl2.exe
+  - PROCESS-NAME,tf2.exe
+  - PROCESS-NAME,hl2.exe
 
 # Left 4 Dead
-PROCESS-NAME,left4dead.exe
-PROCESS-NAME,left4dead2.exe
+  - PROCESS-NAME,left4dead.exe
+  - PROCESS-NAME,left4dead2.exe
 
 # Half-Life
-PROCESS-NAME,hl.exe
-PROCESS-NAME,hl2.exe
+  - PROCESS-NAME,hl.exe
+  - PROCESS-NAME,hl2.exe
 
 # Portal
-PROCESS-NAME,portal.exe
-PROCESS-NAME,portal2.exe
+  - PROCESS-NAME,portal.exe
+  - PROCESS-NAME,portal2.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # ROCKSTAR GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # GTA
-PROCESS-NAME,GTA5.exe
-PROCESS-NAME,GTAVLauncher.exe
-PROCESS-NAME,GTAIV.exe
-PROCESS-NAME,gta_sa.exe
-PROCESS-NAME,gta-vc.exe
+  - PROCESS-NAME,GTA5.exe
+  - PROCESS-NAME,GTAVLauncher.exe
+  - PROCESS-NAME,GTAIV.exe
+  - PROCESS-NAME,gta_sa.exe
+  - PROCESS-NAME,gta-vc.exe
 
 # Red Dead Redemption
-PROCESS-NAME,RDR2.exe
-PROCESS-NAME,RDR2_Launcher.exe
+  - PROCESS-NAME,RDR2.exe
+  - PROCESS-NAME,RDR2_Launcher.exe
 
 # Max Payne
-PROCESS-NAME,MaxPayne3.exe
+  - PROCESS-NAME,MaxPayne3.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # EA GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Battlefield
-PROCESS-NAME,bf1.exe
-PROCESS-NAME,bfv.exe
-PROCESS-NAME,bf4.exe
-PROCESS-NAME,bf3.exe
-PROCESS-NAME,Battlefield2042.exe
+  - PROCESS-NAME,bf1.exe
+  - PROCESS-NAME,bfv.exe
+  - PROCESS-NAME,bf4.exe
+  - PROCESS-NAME,bf3.exe
+  - PROCESS-NAME,Battlefield2042.exe
 
 # Apex Legends
-PROCESS-NAME,r5apex.exe
+  - PROCESS-NAME,r5apex.exe
 
 # FIFA / EA Sports FC
-PROCESS-NAME,FIFA23.exe
-PROCESS-NAME,FIFA24.exe
-PROCESS-NAME,FC24.exe
-PROCESS-NAME,FC25.exe
+  - PROCESS-NAME,FIFA23.exe
+  - PROCESS-NAME,FIFA24.exe
+  - PROCESS-NAME,FC24.exe
+  - PROCESS-NAME,FC25.exe
 
 # The Sims
-PROCESS-NAME,TS4.exe
-PROCESS-NAME,TS4_x64.exe
+  - PROCESS-NAME,TS4.exe
+  - PROCESS-NAME,TS4_x64.exe
 
 # Need for Speed
-PROCESS-NAME,NFS.exe
-PROCESS-NAME,NeedForSpeed.exe
+  - PROCESS-NAME,NFS.exe
+  - PROCESS-NAME,NeedForSpeed.exe
 
 # Star Wars
-PROCESS-NAME,starwarsbattlefrontii.exe
-PROCESS-NAME,starwarssquadrons.exe
+  - PROCESS-NAME,starwarsbattlefrontii.exe
+  - PROCESS-NAME,starwarssquadrons.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # UBISOFT GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Rainbow Six
-PROCESS-NAME,RainbowSix.exe
-PROCESS-NAME,RainbowSixGame.exe
+  - PROCESS-NAME,RainbowSix.exe
+  - PROCESS-NAME,RainbowSixGame.exe
 
 # Assassin's Creed
-PROCESS-NAME,AC.exe
-PROCESS-NAME,ACOrigins.exe
-PROCESS-NAME,ACOdyssey.exe
-PROCESS-NAME,ACValhalla.exe
+  - PROCESS-NAME,AC.exe
+  - PROCESS-NAME,ACOrigins.exe
+  - PROCESS-NAME,ACOdyssey.exe
+  - PROCESS-NAME,ACValhalla.exe
 
 # Far Cry
-PROCESS-NAME,FarCry5.exe
-PROCESS-NAME,FarCry6.exe
+  - PROCESS-NAME,FarCry5.exe
+  - PROCESS-NAME,FarCry6.exe
 
 # Watch Dogs
-PROCESS-NAME,WatchDogs.exe
-PROCESS-NAME,WatchDogs2.exe
-PROCESS-NAME,WatchDogsLegion.exe
+  - PROCESS-NAME,WatchDogs.exe
+  - PROCESS-NAME,WatchDogs2.exe
+  - PROCESS-NAME,WatchDogsLegion.exe
 
 # The Division
-PROCESS-NAME,TheDivision.exe
-PROCESS-NAME,TheDivision2.exe
+  - PROCESS-NAME,TheDivision.exe
+  - PROCESS-NAME,TheDivision2.exe
 
 # For Honor
-PROCESS-NAME,ForHonor.exe
+  - PROCESS-NAME,ForHonor.exe
 
 # Ghost Recon
-PROCESS-NAME,GRW.exe
-PROCESS-NAME,GhostRecon.exe
+  - PROCESS-NAME,GRW.exe
+  - PROCESS-NAME,GhostRecon.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # MIHOYO / HOYOVERSE GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Genshin Impact
-PROCESS-NAME,GenshinImpact.exe
-PROCESS-NAME,YuanShen.exe
+  - PROCESS-NAME,GenshinImpact.exe
+  - PROCESS-NAME,YuanShen.exe
 
 # Honkai: Star Rail
-PROCESS-NAME,StarRail.exe
+  - PROCESS-NAME,StarRail.exe
 
 # Honkai Impact 3rd
-PROCESS-NAME,BH3.exe
+  - PROCESS-NAME,BH3.exe
 
 # Zenless Zone Zero
-PROCESS-NAME,ZenlessZoneZero.exe
+  - PROCESS-NAME,ZenlessZoneZero.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # EPIC GAMES EXCLUSIVES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Fortnite
-PROCESS-NAME,FortniteClient-Win64-Shipping.exe
-PROCESS-NAME,FortniteLauncher.exe
+  - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
+  - PROCESS-NAME,FortniteLauncher.exe
 
 # Rocket League
-PROCESS-NAME,RocketLeague.exe
+  - PROCESS-NAME,RocketLeague.exe
 
 # Fall Guys
-PROCESS-NAME,FallGuys_client.exe
+  - PROCESS-NAME,FallGuys_client.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # MMORPG
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Final Fantasy XIV
-PROCESS-NAME,ffxiv.exe
-PROCESS-NAME,ffxiv_dx11.exe
+  - PROCESS-NAME,ffxiv.exe
+  - PROCESS-NAME,ffxiv_dx11.exe
 
 # Elder Scrolls Online
-PROCESS-NAME,eso.exe
-PROCESS-NAME,eso64.exe
+  - PROCESS-NAME,eso.exe
+  - PROCESS-NAME,eso64.exe
 
 # Guild Wars 2
-PROCESS-NAME,Gw2.exe
-PROCESS-NAME,Gw2-64.exe
+  - PROCESS-NAME,Gw2.exe
+  - PROCESS-NAME,Gw2-64.exe
 
 # Black Desert Online
-PROCESS-NAME,BlackDesert32.exe
-PROCESS-NAME,BlackDesert64.exe
+  - PROCESS-NAME,BlackDesert32.exe
+  - PROCESS-NAME,BlackDesert64.exe
 
 # Lost Ark
-PROCESS-NAME,LostArk.exe
+  - PROCESS-NAME,LostArk.exe
 
 # New World
-PROCESS-NAME,NewWorld.exe
+  - PROCESS-NAME,NewWorld.exe
 
 # Albion Online
-PROCESS-NAME,Albion-Online.exe
+  - PROCESS-NAME,Albion-Online.exe
 
 # RuneScape
-PROCESS-NAME,rs2client.exe
-PROCESS-NAME,RuneScape.exe
+  - PROCESS-NAME,rs2client.exe
+  - PROCESS-NAME,RuneScape.exe
 
 # Star Wars: The Old Republic
-PROCESS-NAME,swtor.exe
+  - PROCESS-NAME,swtor.exe
 
 # Neverwinter
-PROCESS-NAME,Neverwinter.exe
+  - PROCESS-NAME,Neverwinter.exe
 
 # Path of Exile
-PROCESS-NAME,PathOfExile.exe
-PROCESS-NAME,PathOfExile_x64.exe
+  - PROCESS-NAME,PathOfExile.exe
+  - PROCESS-NAME,PathOfExile_x64.exe
 
 # Warframe
-PROCESS-NAME,Warframe.exe
-PROCESS-NAME,Warframe.x64.exe
+  - PROCESS-NAME,Warframe.exe
+  - PROCESS-NAME,Warframe.x64.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # BATTLE ROYALE
 # ═══════════════════════════════════════════════════════════════════════════
 
 # PUBG
-PROCESS-NAME,TslGame.exe
-PROCESS-NAME,PUBG.exe
+  - PROCESS-NAME,TslGame.exe
+  - PROCESS-NAME,PUBG.exe
 
 # Call of Duty: Warzone
-PROCESS-NAME,ModernWarfare.exe
-PROCESS-NAME,Warzone.exe
+  - PROCESS-NAME,ModernWarfare.exe
+  - PROCESS-NAME,Warzone.exe
 
 # Escape from Tarkov
-PROCESS-NAME,EscapeFromTarkov.exe
+  - PROCESS-NAME,EscapeFromTarkov.exe
 
 # Hunt: Showdown
-PROCESS-NAME,HuntGame.exe
+  - PROCESS-NAME,HuntGame.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # COMPETITIVE FPS
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Call of Duty
-PROCESS-NAME,CoDBlackOps.exe
-PROCESS-NAME,CoDMW.exe
-PROCESS-NAME,CoDBO6.exe
+  - PROCESS-NAME,CoDBlackOps.exe
+  - PROCESS-NAME,CoDMW.exe
+  - PROCESS-NAME,CoDBO6.exe
 
 # Overwatch
-PROCESS-NAME,Overwatch.exe
+  - PROCESS-NAME,Overwatch.exe
 
 # Destiny 2
-PROCESS-NAME,destiny2.exe
+  - PROCESS-NAME,destiny2.exe
 
 # Halo
-PROCESS-NAME,HaloInfinite.exe
-PROCESS-NAME,MCC-Win64-Shipping.exe
+  - PROCESS-NAME,HaloInfinite.exe
+  - PROCESS-NAME,MCC-Win64-Shipping.exe
 
 # Rainbow Six Siege
-PROCESS-NAME,RainbowSix.exe
+  - PROCESS-NAME,RainbowSix.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # MOBA
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Dota 2
-PROCESS-NAME,dota2.exe
+  - PROCESS-NAME,dota2.exe
 
 # League of Legends
-PROCESS-NAME,League of Legends.exe
+  - PROCESS-NAME,League of Legends.exe
 
 # Smite
-PROCESS-NAME,Smite.exe
+  - PROCESS-NAME,Smite.exe
 
 # Heroes of the Storm
-PROCESS-NAME,HeroesOfTheStorm.exe
+  - PROCESS-NAME,HeroesOfTheStorm.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # SURVIVAL / SANDBOX
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Minecraft
-PROCESS-NAME,Minecraft.exe
-PROCESS-NAME,javaw.exe
+  - PROCESS-NAME,Minecraft.exe
+  - PROCESS-NAME,javaw.exe
 
 # Rust
-PROCESS-NAME,Rust.exe
-PROCESS-NAME,RustClient.exe
+  - PROCESS-NAME,Rust.exe
+  - PROCESS-NAME,RustClient.exe
 
 # ARK: Survival Evolved
-PROCESS-NAME,ShooterGame.exe
+  - PROCESS-NAME,ShooterGame.exe
 
 # DayZ
-PROCESS-NAME,DayZ.exe
-PROCESS-NAME,DayZ_x64.exe
+  - PROCESS-NAME,DayZ.exe
+  - PROCESS-NAME,DayZ_x64.exe
 
 # 7 Days to Die
-PROCESS-NAME,7DaysToDie.exe
+  - PROCESS-NAME,7DaysToDie.exe
 
 # Valheim
-PROCESS-NAME,valheim.exe
+  - PROCESS-NAME,valheim.exe
 
 # Terraria
-PROCESS-NAME,Terraria.exe
+  - PROCESS-NAME,Terraria.exe
 
 # Don't Starve Together
-PROCESS-NAME,dontstarve_steam.exe
+  - PROCESS-NAME,dontstarve_steam.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # RACING
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Forza
-PROCESS-NAME,ForzaHorizon5.exe
-PROCESS-NAME,ForzaHorizon4.exe
-PROCESS-NAME,ForzaMotorsport.exe
+  - PROCESS-NAME,ForzaHorizon5.exe
+  - PROCESS-NAME,ForzaHorizon4.exe
+  - PROCESS-NAME,ForzaMotorsport.exe
 
 # Gran Turismo (PC)
-PROCESS-NAME,GranTurismo.exe
+  - PROCESS-NAME,GranTurismo.exe
 
 # iRacing
-PROCESS-NAME,iRacingSim64DX11.exe
+  - PROCESS-NAME,iRacingSim64DX11.exe
 
 # Assetto Corsa
-PROCESS-NAME,acs.exe
-PROCESS-NAME,AssettoCorsa.exe
+  - PROCESS-NAME,acs.exe
+  - PROCESS-NAME,AssettoCorsa.exe
 
 # Project CARS
-PROCESS-NAME,pCARS2.exe
-PROCESS-NAME,pCARS3.exe
+  - PROCESS-NAME,pCARS2.exe
+  - PROCESS-NAME,pCARS3.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # SPORTS
 # ═══════════════════════════════════════════════════════════════════════════
 
 # NBA 2K
-PROCESS-NAME,NBA2K23.exe
-PROCESS-NAME,NBA2K24.exe
+  - PROCESS-NAME,NBA2K23.exe
+  - PROCESS-NAME,NBA2K24.exe
 
 # Madden NFL
-PROCESS-NAME,Madden24.exe
+  - PROCESS-NAME,Madden24.exe
 
 # NHL
-PROCESS-NAME,NHL24.exe
+  - PROCESS-NAME,NHL24.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # STRATEGY / RTS
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Age of Empires
-PROCESS-NAME,AoE2DE.exe
-PROCESS-NAME,AoE4.exe
+  - PROCESS-NAME,AoE2DE.exe
+  - PROCESS-NAME,AoE4.exe
 
 # Civilization
-PROCESS-NAME,CivilizationVI.exe
+  - PROCESS-NAME,CivilizationVI.exe
 
 # Total War
-PROCESS-NAME,Warhammer2.exe
-PROCESS-NAME,Warhammer3.exe
+  - PROCESS-NAME,Warhammer2.exe
+  - PROCESS-NAME,Warhammer3.exe
 
 # StarCraft II
-PROCESS-NAME,SC2.exe
+  - PROCESS-NAME,SC2.exe
 
 # Command & Conquer
-PROCESS-NAME,CnCRemastered.exe
+  - PROCESS-NAME,CnCRemastered.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # CARD GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Hearthstone
-PROCESS-NAME,Hearthstone.exe
+  - PROCESS-NAME,Hearthstone.exe
 
 # Magic: The Gathering Arena
-PROCESS-NAME,MTGA.exe
+  - PROCESS-NAME,MTGA.exe
 
 # Gwent
-PROCESS-NAME,Gwent.exe
+  - PROCESS-NAME,Gwent.exe
 
 # Yu-Gi-Oh!
-PROCESS-NAME,YuGiOh.exe
+  - PROCESS-NAME,YuGiOh.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # FIGHTING GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Street Fighter
-PROCESS-NAME,StreetFighterV.exe
-PROCESS-NAME,SF6.exe
+  - PROCESS-NAME,StreetFighterV.exe
+  - PROCESS-NAME,SF6.exe
 
 # Mortal Kombat
-PROCESS-NAME,MK11.exe
-PROCESS-NAME,MK1.exe
+  - PROCESS-NAME,MK11.exe
+  - PROCESS-NAME,MK1.exe
 
 # Tekken
-PROCESS-NAME,Tekken7.exe
-PROCESS-NAME,Tekken8.exe
+  - PROCESS-NAME,Tekken7.exe
+  - PROCESS-NAME,Tekken8.exe
 
 # Dragon Ball
-PROCESS-NAME,DBFZ.exe
+  - PROCESS-NAME,DBFZ.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # RUSSIAN GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # World of Tanks
-PROCESS-NAME,WorldOfTanks.exe
-PROCESS-NAME,wot.exe
+  - PROCESS-NAME,WorldOfTanks.exe
+  - PROCESS-NAME,wot.exe
 
 # World of Warships
-PROCESS-NAME,WorldOfWarships.exe
+  - PROCESS-NAME,WorldOfWarships.exe
 
 # War Thunder
-PROCESS-NAME,aces.exe
-PROCESS-NAME,WarThunder.exe
+  - PROCESS-NAME,aces.exe
+  - PROCESS-NAME,WarThunder.exe
 
 # Escape from Tarkov
-PROCESS-NAME,EscapeFromTarkov.exe
+  - PROCESS-NAME,EscapeFromTarkov.exe
 
 # Crossout
-PROCESS-NAME,Crossout.exe
+  - PROCESS-NAME,Crossout.exe
 
 # Enlisted
-PROCESS-NAME,Enlisted.exe
+  - PROCESS-NAME,Enlisted.exe
 
 # Caliber
-PROCESS-NAME,Caliber.exe
+  - PROCESS-NAME,Caliber.exe
 
 # Stalcraft
-PROCESS-NAME,Stalcraft.exe
+  - PROCESS-NAME,Stalcraft.exe
 
 # Point Blank
-PROCESS-NAME,PointBlank.exe
+  - PROCESS-NAME,PointBlank.exe
 
 # Warface
-PROCESS-NAME,Warface.exe
+  - PROCESS-NAME,Warface.exe
 
 # Armored Warfare
-PROCESS-NAME,ArmoredWarfare.exe
+  - PROCESS-NAME,ArmoredWarfare.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # ASIAN GAMES
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Wuthering Waves
-PROCESS-NAME,Wuthering Waves.exe
+  - PROCESS-NAME,Wuthering Waves.exe
 
 # Tower of Fantasy
-PROCESS-NAME,TowerOfFantasy.exe
+  - PROCESS-NAME,TowerOfFantasy.exe
 
 # Blue Archive
-PROCESS-NAME,BlueArchive.exe
+  - PROCESS-NAME,BlueArchive.exe
 
 # Nikke
-PROCESS-NAME,NIKKE.exe
+  - PROCESS-NAME,NIKKE.exe
 
 # Arknights
-PROCESS-NAME,Arknights.exe
+  - PROCESS-NAME,Arknights.exe
 
 # Azur Lane
-PROCESS-NAME,AzurLane.exe
+  - PROCESS-NAME,AzurLane.exe
 
 # Girls' Frontline
-PROCESS-NAME,GirlsFrontline.exe
+  - PROCESS-NAME,GirlsFrontline.exe
 
 # Punishing: Gray Raven
-PROCESS-NAME,PGR.exe
+  - PROCESS-NAME,PGR.exe
 
 # Honkai Impact 3rd
-PROCESS-NAME,BH3.exe
+  - PROCESS-NAME,BH3.exe
 
 # ═══════════════════════════════════════════════════════════════════════════
 # INDIE / POPULAR MULTIPLAYER
 # ═══════════════════════════════════════════════════════════════════════════
 
 # Among Us
-PROCESS-NAME,Among Us.exe
+  - PROCESS-NAME,Among Us.exe
 
 # Phasmophobia
-PROCESS-NAME,Phasmophobia.exe
+  - PROCESS-NAME,Phasmophobia.exe
 
 # Dead by Daylight
-PROCESS-NAME,DeadByDaylight.exe
+  - PROCESS-NAME,DeadByDaylight.exe
 
 # Sea of Thieves
-PROCESS-NAME,SoTGame.exe
+  - PROCESS-NAME,SoTGame.exe
 
 # Lethal Company
-PROCESS-NAME,Lethal Company.exe
+  - PROCESS-NAME,Lethal Company.exe
 
 # Content Warning
-PROCESS-NAME,Content Warning.exe
+  - PROCESS-NAME,Content Warning.exe
 
 # Palworld
-PROCESS-NAME,Palworld.exe
+  - PROCESS-NAME,Palworld.exe
 
 # Satisfactory
-PROCESS-NAME,FactoryGame.exe
+  - PROCESS-NAME,FactoryGame.exe
 
 # Deep Rock Galactic
-PROCESS-NAME,FSD.exe
+  - PROCESS-NAME,FSD.exe
 
 # Risk of Rain 2
-PROCESS-NAME,Risk of Rain 2.exe
+  - PROCESS-NAME,Risk of Rain 2.exe
